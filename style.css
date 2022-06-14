@@ -30,7 +30,7 @@ span
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #fff;
+    /* color: #fff; */
 }
 #minute, #second
 {
