@@ -24,7 +24,7 @@ span
 {
     font-size:7rem;
 }
-#contains
+#contains , #contains-2
 {
     margin: 4rem auto 2rem;
     display: flex;
@@ -32,7 +32,11 @@ span
     justify-content: center;
     /* color: #fff; */
 }
-#minute, #second
+#contains-2
+{
+    display: none;
+}
+#minute, #minute-2 ,  #second 
 {
     text-align: center;
     font-size: 7rem;

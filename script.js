@@ -3,6 +3,12 @@ let initial;
 let min = 24;
 let sec = 60;
 
+let minEx = [4 , 4 , 15 , 30]
+let minuteExtra = document.getElementById("minute-2")
+
+let contains = document.getElementById("contains")
+let contains2 = document.getElementById("contains-2")
+
 let minute = document.getElementById('minute');
 let second = document.getElementById('second');
 
@@ -12,7 +18,7 @@ document.getElementById('pause').onclick = () => pause();
 function start()
 { 
     pause();
-    initial = setInterval(timer, 1000);
+    initial = setInterval(timer, 10);
 }
 function pause()
 {
@@ -33,25 +39,29 @@ function timer()
         sec = 60;
         min--;
     }
-    if(min == 0)
+    else if(min == 0)
     {
         winTimer();
     }
+    
     
     minute.innerText = returnZero(min);
     second.innerText = returnZero(sec);
 }
 function winTimer()
 {
-    min = 4;
-    min === 0 
-    // setTimeout(() => { 
-    //     reset();
-    //     pause();
-    // }, 40000);
+    contains.style.display = "none"
+    contains2.style.display = "flex"
+    
+    
+    minuteExtra.innerText = minEx[0]
+
 }
 function returnZero(value) 
 {
 return value > 9 ? value : `0${value}`
 }
-
+// setTimeout(() => { 
+//     reset();
+//     pause();
+// }, 40000);
