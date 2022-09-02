@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Righteous&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+#contains
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    border-radius: 50%;
+    padding: 60px; 
+}
+#minutes
+{
+    font-size: 3em;
+}
+.btns
+{
+    padding: 6px;
+    
+}
+.btns:nth-child(1)
+{
+
+}
+.btns:nth-child(2)
+{
+    
+}
+.btns:nth-child(3)
+{
+    
+}
+.btns:nth-child(4)
+{
+    
+}
+.btns:nth-child(5)
+{
+    
+}
+#types.modal
+{
+    
+}
