@@ -15,16 +15,17 @@ body
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
 }
-
-#contains
+#container
 {
     position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: blue;
+    background:#00BFFF;
     border-radius: 50%;
+    box-shadow: 0 0 15px ;
     padding: 60px; 
+    transition: 0.5s;
 }
 #minutes
 {
@@ -32,30 +33,33 @@ body
 }
 .btns
 {
+    box-shadow: 0 4px 4px #1c1c1c;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
     padding: 6px;
-    
-}
-.btns:nth-child(1)
-{
-
-}
-.btns:nth-child(2)
-{
-    
-}
-.btns:nth-child(3)
-{
-    
-}
-.btns:nth-child(4)
-{
-    
-}
-.btns:nth-child(5)
-{
-    
+    border-radius:10px;
+    background: #F0F8FF;
 }
 #types.modal
 {
     
+}
+/*Dark modal*/
+#container.dark body
+{
+    background-color: #100f2c;   
+    transition: 0.5s;
+}
+#container.dark
+{
+    background-color: #00008B;
+    color: #F0F8FF;
+    transition: 0.5s;
+}
+#container.dark .btns
+{
+    box-shadow: 0 4px 4px #F0F8FF;
+    background: #191970;
+    color: #F0F8FF;
 }
