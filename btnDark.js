@@ -7,13 +7,12 @@ document.getElementById('styleMode').onclick = () => styleMode();
 
 function darkMode()
 {
-    container.classList.toggle('dark');
-    
-    console.log(container)
-    //  ? body.style.backgroundColor = 'green' : body.style.backgroundColor = 'yellow' 
+    body.classList.toggle('dark');
 }
 
 function styleMode()
 {
-
+    let content = '';
+    content += '<div class="hours" id="container2">Try again later :(</div> <br> <button>Back<button>'
+    container.innerHTML = content
 }
