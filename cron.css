@@ -17,12 +17,12 @@ body
 }
 #container
 {
-    position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     background:#00BFFF;
     border-radius: 50%;
+    width: 60%;
     box-shadow: 0 0 15px ;
     padding: 60px; 
     transition: 0.5s;
