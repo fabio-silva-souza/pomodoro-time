@@ -13,7 +13,7 @@ document.getElementById('reset').onclick = () => reset();
 function start()
 { 
     pause();
-    initial = setInterval(timer, 10);
+    initial = setInterval(timer, 1000);
 }
 function pause()
 {
