@@ -22,9 +22,10 @@ body
     text-align: center;
     background:#00BFFF;
     border-radius: 50%;
-    width: 60%;
     box-shadow: 0 0 15px ;
     padding: 60px; 
+    width: 500px;
+    height: 500px;
     transition: 0.5s;
 }
 #minutes
