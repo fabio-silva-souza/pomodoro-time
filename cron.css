@@ -21,8 +21,9 @@ body
     align-items: center;
     text-align: center;
     background:#00BFFF;
+    color: #F0F8FF;
     border-radius: 50%;
-    box-shadow: 0 0 15px ;
+    box-shadow: 0 5px 15px;
     padding: 60px; 
     width: 500px;
     height: 500px;
@@ -32,15 +33,22 @@ body
 {
     font-size: 3em;
 }
+hr
+{
+    display: none;
+}
 .btns
 {
-    box-shadow: 0 4px 4px ;
+    box-shadow: 0 6px 6px ;
     border-radius: 25px;
+    font-size: 1.2rem;
+    margin-top: 30px;
     border: none;
     cursor: pointer;
     padding: 6px;
     border-radius:10px;
-    background: #F0F8FF;
+    background:#00BFFF;
+    color: #F0F8FF;
 }
 /*Dark mode*/
 .dark
